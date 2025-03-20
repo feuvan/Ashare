@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Ashare"
+version = "0.1.0"
+description = "A股实时行情数据API"
+readme = "README.md"
+authors = [
+    {name = "mpquant"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "requests",
+]
+requires-python = ">=3.6"
+
+[project.urls]
+"Homepage" = "https://github.com/mpquant/Ashare"
+"Bug Tracker" = "https://github.com/mpquant/Ashare/issues"
+
+[tool.setuptools]
+packages = ["Ashare"]
