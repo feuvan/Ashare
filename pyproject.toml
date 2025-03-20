@@ -27,4 +27,4 @@ requires-python = ">=3.6"
 "Bug Tracker" = "https://github.com/mpquant/Ashare/issues"
 
 [tool.setuptools]
-packages = ["Ashare"]
+py-modules = ["Ashare", "MyTT"]
