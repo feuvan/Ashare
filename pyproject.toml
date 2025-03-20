@@ -10,7 +10,7 @@ readme = "README.md"
 authors = [
     {name = "mpquant"}
 ]
-license = {text = "MIT"}
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
